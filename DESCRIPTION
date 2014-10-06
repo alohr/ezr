@@ -1,7 +1,8 @@
 Package: ezr
 Title: Functions to make R easier
-Description: 
 Version: 0.1
-Author: A Lohr <andr3as.lohr@gmail.com>
-Maintainer: A Lohr <andr3as.lohr@gmail.com>
+Authors@R: "A Lohr <andr3as.lohr@mail.com> [aut, cre]"
+Description: Makes R a little easier to use
 License: BSD
+Imports:
+    ggplot2
