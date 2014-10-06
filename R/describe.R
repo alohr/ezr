@@ -16,9 +16,9 @@
 #' @examples
 #
 #' set.seed(0)
-#' round(percs(rnorm(1000)), 2)
+#' round(describe(rnorm(1000)), 2)
 
-percs <- function(x, na.rm = TRUE, cols = NULL) {
+describe <- function(x, na.rm = TRUE, cols = NULL) {
 
   valid <- function(x) { sum(!is.na(x)) }
 
