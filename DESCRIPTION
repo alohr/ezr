@@ -5,4 +5,5 @@ Authors@R: "A Lohr <andr3as.lohr@mail.com> [aut, cre]"
 Description: Makes R a little easier to use
 License: BSD
 Imports:
-    ggplot2
+    ggplot2,
+    grid
